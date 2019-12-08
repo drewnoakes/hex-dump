@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Drew Noakes</Authors>
+    <Description>Formats a hex dump from bytes</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageTags>hex hexdump</PackageTags>
+    <PackageProjectUrl>https://github.com/drewnoakes/hex-dump</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/drewnoakes/hex-dump.git</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
