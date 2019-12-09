@@ -13,7 +13,7 @@ namespace HexDump.Tests
         {
             Assert.Throws<ArgumentNullException>(() => HexDump.Format(null));
 
-            Assert.Equal("", HexDump.Format(Array.Empty<byte>()));
+            Assert.Equal("", HexDump.Format(ByteSequence('a', 0)));
 
             Assert.Equal("0000    61 62 63 64 65 66                                   abcdef           ", HexDump.Format(ByteSequence('a', 6)));
             Assert.Equal("0000    61 62 63 64 65 66 67 68  69 6A 6B 6C 6D 6E 6F 70    abcdefgh ijklmnop", HexDump.Format(ByteSequence('a', 16)));

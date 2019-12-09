@@ -1,13 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DebugType>portable</DebugType>
+    <LangVersion>8</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
     <Authors>Drew Noakes</Authors>
     <Description>Formats a hex dump from bytes</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageTags>hex hexdump</PackageTags>
+    <PackageTags>hex;hexdump</PackageTags>
     <PackageProjectUrl>https://github.com/drewnoakes/hex-dump</PackageProjectUrl>
     <RepositoryUrl>https://github.com/drewnoakes/hex-dump.git</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
 </Project>
